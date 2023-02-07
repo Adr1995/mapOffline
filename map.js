@@ -7,9 +7,9 @@ attribution: 'Tiles © Esri — Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, 
 satellite.addTo(map);
 var marker = L.marker([27.955280, -15.597910]).addTo(map);
 marker.bindPopup('A pretty CSS3 popup.<br> Easily customizable.').openPopup();
-var control = L.Routing.control({
-  waypoints: [
-    L.latLng(57.74, 11.94),
-    L.latLng(57.6792, 11.949)
-  ]
-}).addTo(map);
+// var control = L.Routing.control({
+//   waypoints: [
+//     L.latLng(57.74, 11.94),
+//     L.latLng(57.6792, 11.949)
+//   ]
+// }).addTo(map);
